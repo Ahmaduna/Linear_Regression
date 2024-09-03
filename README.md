@@ -1,28 +1,27 @@
-# Regression-lineaire
-# Boston Housing Price Prediction
+# Prédiction des Prix des Logements à Boston
 
-## Overview
-This project implements a **linear regression** model to predict the median value of homes in Boston based on various features. Using Python's data science libraries, we explore, model, and evaluate the dataset to derive meaningful insights.
+## Aperçu
+Ce projet met en œuvre un modèle de **régression linéaire** pour prédire la valeur médiane des logements à Boston en fonction de diverses caractéristiques. Grâce aux bibliothèques de science des données de Python, nous explorons, modélisons et évaluons le dataset pour en tirer des insights significatifs.
 
-## Project Structure
-- **boston.csv**: The dataset containing Boston housing data.
-- **Linear_Regression_Boston_Housing.ipynb**: Jupyter Notebook with code for data exploration, preprocessing, model training, and evaluation.
+## Structure du Projet
+- **boston.csv** : Le dataset contenant les données sur les logements à Boston.
+- **Linear_Regression_Boston_Housing.ipynb** : Jupyter Notebook contenant le code pour l'exploration des données, le prétraitement, l'entraînement du modèle et son évaluation.
 
-## Key Steps
-1. **Data Loading**: Import the Boston housing dataset and clean it for analysis.
-2. **Exploratory Data Analysis (EDA)**: Understand feature correlations and visualize key patterns.
-3. **Modeling**: Train a linear regression model using Scikit-Learn and Statsmodels.
-4. **Evaluation**: Assess model performance with metrics like RMSE, R², and residual analysis.
-5. **Visualization**: Plot results to validate model assumptions.
+## Étapes Clés
+1. **Chargement des Données** : Importation du dataset et nettoyage pour l'analyse.
+2. **Analyse Exploratoire des Données (EDA)** : Comprendre les corrélations des caractéristiques et visualiser les principaux motifs.
+3. **Modélisation** : Entraînement d'un modèle de régression linéaire avec Scikit-Learn et Statsmodels.
+4. **Évaluation** : Évaluation des performances du modèle avec des métriques comme RMSE, R², et analyse des résidus.
+5. **Visualisation** : Graphiques pour valider les hypothèses du modèle.
 
-## Results
-- **Model Coefficients**: Insight into feature importance.
-- **Performance Metrics**: MSE, R², and statistical tests confirm the model's robustness.
-- **Residual Analysis**: Normality tests and autocorrelation checks ensure model validity.
+## Résultats
+- **Coefficients du Modèle** : Aperçu de l'importance des caractéristiques.
+- **Métriques de Performance** : MSE, R², et tests statistiques confirment la robustesse du modèle.
+- **Analyse des Résidus** : Tests de normalité et vérifications d'autocorrélation garantissent la validité du modèle.
 
-## Requirements
+## Prérequis
 - `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `statsmodels`
   
-Install dependencies:
+Installer les dépendances :
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
